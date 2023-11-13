@@ -61,7 +61,7 @@ if (!isset($_SESSION["usuario"])) {
                     <?php 
                     require_once "./database.php";
                     $imgBlob = base64_encode($_SESSION["usuario"]["img_blob"]);
-                    echo "<img src='data:image/*;base64,$imgBlob'>";
+                    echo "<img src='data:image/*;base64,$imgBlob' height='150'/>";
 
 
                     ?>

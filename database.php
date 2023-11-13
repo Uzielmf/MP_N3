@@ -3,7 +3,7 @@ $localhost = "127.0.0.1";
 $username = "root";
 $password = "";
 $basedatos = "login_db";
-$puerto = "3306";
+$puerto = "3308";
 
 
 try {
