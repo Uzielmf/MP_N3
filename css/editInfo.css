@@ -1,0 +1,50 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.container-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    height: 75%;
+    width: 40%;
+    display: grid;
+    grid-template-rows: .3fr .25fr auto auto auto auto auto;
+    gap: 1rem;
+    overflow: hidden;
+    padding-left: 3rem;
+}
+
+.inputs-form{
+    display: grid;
+    gap: 1rem;
+}
+
+.input{
+    height: 2rem;
+    width: 50%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.input-bio{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.input-button{
+    height: 2rem;
+    width: 4.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgb(70, 126, 229);
+    color: white;
+}

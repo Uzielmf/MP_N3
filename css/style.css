@@ -1,0 +1,55 @@
+
+.container-formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    padding: 3rem;
+}
+
+.negritas{
+    font-size: 1.2rem;
+}
+
+.container-inputs{
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.input{
+    height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.blue{
+    height: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: rgb(70, 126, 229);
+    color: white;
+}
+
+.container-login-met{
+    display: grid;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.letter-gray{
+    color: gray;
+}
